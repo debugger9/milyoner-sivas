@@ -132,7 +132,10 @@ function answerQuestion(e) {
 function showAnswer() {
     var a = document.getElementsByTagName("button");
     setTimeout(() => {
-        Array.from(a).forEach(data => data.style = "cursor:auto; background-color: lightgray;");
+        Array.from(a).forEach(data => {
+            data.style = "cursor:auto; background-color: lightgray;";
+            data.removeAttribute("onclick");
+        });
         var cevap = Array.from(a).filter(el => el.value === sorular[guncelSoru - 1].dogruCevap);
         document.getElementsByClassName("cevap-nedir")[0].innerHTML = "Süre doldu!";
         cevap[0].style = "background:green";
