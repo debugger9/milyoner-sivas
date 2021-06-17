@@ -1,0 +1,113 @@
+body {
+    background-color: aliceblue;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.left-section {
+    width: 25%;
+}
+
+.main-section {
+    width: 50%;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.border-10 {
+    border-radius: 10px;
+}
+
+.right-section {
+    margin-left: 50px;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+.info-box {
+    background: darkgray;
+    padding: 22px;
+    border-radius: 15px;
+}
+
+.info-text,
+#soru-no {
+    font-family: cursive;
+    font-size: 22px;
+}
+
+.d-none {
+    display: none;
+}
+
+button.cevap-button {
+    border: 0px;
+    margin: 5px;
+    padding: 5px;
+    outline: 0;
+    cursor: pointer;
+    width: 300px;
+    font-weight: 700;
+    background-color: darkgray;
+    color: yellow;
+    border-radius: 10px;
+}
+
+.kronometre,
+.puan {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    border: 1px solid black;
+    width: 40%;
+    font-size: 20px;
+    font-weight: 700;
+    justify-content: center;
+    background: cadetblue;
+    color: beige;
+    border-radius: 10px;
+}
+
+.joker {
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 50%;
+    text-align: center;
+    width: 40%;
+    background-color: cadetblue;
+    color: cornsilk;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+#start-button {
+    background: darkgray;
+    outline: 0;
+    border: 0;
+    width: 70%;
+    margin-top: 6px;
+    padding: 10px;
+    color: yellow;
+    font-weight: 700;
+    font-family: cursive;
+    cursor: pointer;
+    border-radius: 10px;
+}
