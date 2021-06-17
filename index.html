@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Milyoner-Sivas</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="header">
+        <h2>Milyoner-Sivas</h2>
+    </div>
+    <hr>
+    <div class="container">
+        <div class="d-flex left-section flex-column">
+            <div class="puan">Puan: 0 / 100</div>
+            <div class="kronometre">
+                <div id="dakika">00</div>:
+                <div id="saniye">00</div>
+            </div>
+            <div class="joker" onclick="joker()">50:50</div>
+        </div>
+        <div class="main-section">
+            <div class="before-start">
+                <img src="./assets/quiz-bg.jpg" class="w-100 border-10" id="quiz-img" alt="" srcset="">
+            </div>
+            <div class="info-box">
+                <div class="info-detail" id="quiz-detail">
+                    <p id="soru-no" class="d-none">Soru #0</p>
+                    <p class="info-text">
+                        Kurallar: <br>é
+                        Süre bitmeden soruları cevaplayınız. <br>
+                        Her doğru 20 puan değerindedir. <br>
+                        Her soru başına süreniz 10 saniyedir.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="right-section" id="right">
+            <button type="submit" onclick="startGame()" id="start-button" value="start">Oyun Başlasın</button>
+        </div>
+    </div>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
